@@ -27,8 +27,8 @@ body {
 
 
 #jorgebot{
-    width: 90%;
-    max-width: 350px;
+    max-width: 50%;
+    min-width: 250px;
     flex: 1;
     border-radius: 10px;
 }
