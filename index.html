@@ -14,11 +14,12 @@
         <h2>Has una pregunta y él te contestará</h2>
         <br>
         <img id="jorgebot" src="images/felixImg.webp" alt="JorgeBot-300">
+        <p id="respuesta"></p>
     </div>
     <div class="container input">
         <form>
             <input type="text" id="userInput" placeholder="Pregunta aqui...">
-            <input type="submit" onclick="toggleTalk(); event.preventDefault()" value="Preguntar" id="submitBtn">
+            <input type="submit" onclick="giveAnswer(); event.preventDefault()" value="Preguntar" id="submitBtn">
         </form>
     </div>
 </body>

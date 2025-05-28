@@ -90,3 +90,9 @@ body {
     align-items: center;
     text-align: center;
 }
+
+#respuesta {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-family: 'WDXL Lubrifont TC', sans-serif;
+}
