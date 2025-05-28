@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jorge dice...</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,12 +13,12 @@
         <h1>Bienvenido al JorgeBot-300</h1>
         <h2>Has una pregunta y él te contestará</h2>
         <br>
-        <img id="jorgebot" src="images/felixImg.webp" alt="JorgeBot-300" width="300">
+        <img id="jorgebot" src="images/felixImg.webp" alt="JorgeBot-300">
     </div>
-    <div class="class input">
+    <div class="container input">
         <form>
             <input type="text" id="userInput" placeholder="Pregunta aqui...">
-            <input type="submit" value="Preguntar" id="submitBtn">
+            <input type="submit" onclick="toggleTalk(); event.preventDefault()" value="Preguntar" id="submitBtn">
         </form>
     </div>
 </body>
